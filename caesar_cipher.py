@@ -1,7 +1,7 @@
 def caesar_cipher(text):
     #this is a simple caesar cipher
     #it shifts the letters by 3
-    key = 1
+    key = 3
     letters="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     result = ''
     text = text.upper()
