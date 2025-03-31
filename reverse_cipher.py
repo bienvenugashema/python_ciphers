@@ -3,4 +3,4 @@ def reverce(text):
     #it reverses the text
     return text[::-1]
 
-print(reverce("The secrete message"))
+print(reverce("Three can keep a secret, if two of them are dead."))
