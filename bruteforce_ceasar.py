@@ -1,3 +1,5 @@
+print("Enter the secrete message")
+message = input(">")
 def bruteforce(text):
     letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     text = text.upper()
@@ -16,6 +18,6 @@ def bruteforce(text):
             else:
                 result += char    
    
-    print(result)                 
+    return result                 
 
-bruteforce("WKLV LV PB VHFUHW PHVVDJH.\n")
+bruteforce("S RKDO WKDROWKDSMC\n")
