@@ -20,4 +20,4 @@ def bruteforce(text):
    
     return result                 
 
-bruteforce("S RKDO WKDROWKDSMC\n")
+print(bruteforce(message+"\n"))
